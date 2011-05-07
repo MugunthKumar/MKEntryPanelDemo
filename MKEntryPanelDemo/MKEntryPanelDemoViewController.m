@@ -7,6 +7,7 @@
 //
 
 #import "MKEntryPanelDemoViewController.h"
+#import "MKEntryPanel.h"
 
 @implementation MKEntryPanelDemoViewController
 
@@ -25,13 +26,22 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 }
-*/
+
+-(IBAction) addTapped:(id) sender
+{
+    [MKEntryPanel showPanelWithTitle:NSLocalizedString(@"Enter a text name", @"") 
+                              inView:self.view 
+                       onTextEntered:^(NSString* enteredString)
+     {
+         NSLog(@"Entered: %@", enteredString);
+     }];
+}
 
 - (void)viewDidUnload
 {

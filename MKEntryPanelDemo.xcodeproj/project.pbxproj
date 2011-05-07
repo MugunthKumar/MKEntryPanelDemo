@@ -16,6 +16,11 @@
 		AB82E7221374F29500056B00 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7201374F29500056B00 /* MainWindow.xib */; };
 		AB82E7251374F29600056B00 /* MKEntryPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB82E7241374F29600056B00 /* MKEntryPanelDemoViewController.m */; };
 		AB82E7281374F29600056B00 /* MKEntryPanelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7261374F29600056B00 /* MKEntryPanelDemoViewController.xib */; };
+		AB82E7341374F2D500056B00 /* MKEntryPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB82E7301374F2D500056B00 /* MKEntryPanel.m */; };
+		AB82E7351374F2D500056B00 /* MKEntryPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7311374F2D500056B00 /* MKEntryPanel.xib */; };
+		AB82E7361374F2D500056B00 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7321374F2D500056B00 /* TopBar.png */; };
+		AB82E7371374F2D500056B00 /* TopBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7331374F2D500056B00 /* TopBar@2x.png */; };
+		AB82E7411374F43D00056B00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82E7401374F43D00056B00 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,22 @@
 		AB82E70E1374F29500056B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB82E7101374F29500056B00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB82E7121374F29500056B00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB82E7161374F29500056B00 /* MKEntryPanelDemo-Info.plist */ = {isa = PBXFileReference; path = "MKEntryPanelDemo-Info.plist"; sourceTree = "<group>"; };
+		AB82E7161374F29500056B00 /* MKEntryPanelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKEntryPanelDemo-Info.plist"; sourceTree = "<group>"; };
 		AB82E7181374F29500056B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB82E71A1374F29500056B00 /* MKEntryPanelDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MKEntryPanelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB82E71A1374F29500056B00 /* MKEntryPanelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKEntryPanelDemo-Prefix.pch"; sourceTree = "<group>"; };
 		AB82E71B1374F29500056B00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB82E71D1374F29500056B00 /* MKEntryPanelDemoAppDelegate.h */ = {isa = PBXFileReference; path = MKEntryPanelDemoAppDelegate.h; sourceTree = "<group>"; };
+		AB82E71D1374F29500056B00 /* MKEntryPanelDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKEntryPanelDemoAppDelegate.h; sourceTree = "<group>"; };
 		AB82E71E1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKEntryPanelDemoAppDelegate.m; sourceTree = "<group>"; };
 		AB82E7211374F29500056B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AB82E7231374F29500056B00 /* MKEntryPanelDemoViewController.h */ = {isa = PBXFileReference; path = MKEntryPanelDemoViewController.h; sourceTree = "<group>"; };
+		AB82E7231374F29500056B00 /* MKEntryPanelDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKEntryPanelDemoViewController.h; sourceTree = "<group>"; };
 		AB82E7241374F29600056B00 /* MKEntryPanelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKEntryPanelDemoViewController.m; sourceTree = "<group>"; };
 		AB82E7271374F29600056B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKEntryPanelDemoViewController.xib; sourceTree = "<group>"; };
+		AB82E72F1374F2D500056B00 /* MKEntryPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEntryPanel.h; sourceTree = "<group>"; };
+		AB82E7301374F2D500056B00 /* MKEntryPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEntryPanel.m; sourceTree = "<group>"; };
+		AB82E7311374F2D500056B00 /* MKEntryPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKEntryPanel.xib; sourceTree = "<group>"; };
+		AB82E7321374F2D500056B00 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBar.png; sourceTree = "<group>"; };
+		AB82E7331374F2D500056B00 /* TopBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TopBar@2x.png"; sourceTree = "<group>"; };
+		AB82E7401374F43D00056B00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB82E7411374F43D00056B00 /* QuartzCore.framework in Frameworks */,
 				AB82E70F1374F29500056B00 /* UIKit.framework in Frameworks */,
 				AB82E7111374F29500056B00 /* Foundation.framework in Frameworks */,
 				AB82E7131374F29500056B00 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +64,8 @@
 		AB82E6FF1374F29500056B00 = {
 			isa = PBXGroup;
 			children = (
+				AB82E7401374F43D00056B00 /* QuartzCore.framework */,
+				AB82E72E1374F2D500056B00 /* MKEntryPanel */,
 				AB82E7141374F29500056B00 /* MKEntryPanelDemo */,
 				AB82E70D1374F29500056B00 /* Frameworks */,
 				AB82E70B1374F29500056B00 /* Products */,
@@ -99,6 +113,18 @@
 				AB82E71B1374F29500056B00 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB82E72E1374F2D500056B00 /* MKEntryPanel */ = {
+			isa = PBXGroup;
+			children = (
+				AB82E72F1374F2D500056B00 /* MKEntryPanel.h */,
+				AB82E7301374F2D500056B00 /* MKEntryPanel.m */,
+				AB82E7311374F2D500056B00 /* MKEntryPanel.xib */,
+				AB82E7321374F2D500056B00 /* TopBar.png */,
+				AB82E7331374F2D500056B00 /* TopBar@2x.png */,
+			);
+			path = MKEntryPanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +180,9 @@
 				AB82E7191374F29500056B00 /* InfoPlist.strings in Resources */,
 				AB82E7221374F29500056B00 /* MainWindow.xib in Resources */,
 				AB82E7281374F29600056B00 /* MKEntryPanelDemoViewController.xib in Resources */,
+				AB82E7351374F2D500056B00 /* MKEntryPanel.xib in Resources */,
+				AB82E7361374F2D500056B00 /* TopBar.png in Resources */,
+				AB82E7371374F2D500056B00 /* TopBar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +196,7 @@
 				AB82E71C1374F29500056B00 /* main.m in Sources */,
 				AB82E71F1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m in Sources */,
 				AB82E7251374F29600056B00 /* MKEntryPanelDemoViewController.m in Sources */,
+				AB82E7341374F2D500056B00 /* MKEntryPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
