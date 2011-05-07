@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB82E70F1374F29500056B00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82E70E1374F29500056B00 /* UIKit.framework */; };
+		AB82E7111374F29500056B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82E7101374F29500056B00 /* Foundation.framework */; };
+		AB82E7131374F29500056B00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82E7121374F29500056B00 /* CoreGraphics.framework */; };
+		AB82E7191374F29500056B00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7171374F29500056B00 /* InfoPlist.strings */; };
+		AB82E71C1374F29500056B00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB82E71B1374F29500056B00 /* main.m */; };
+		AB82E71F1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB82E71E1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m */; };
+		AB82E7221374F29500056B00 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7201374F29500056B00 /* MainWindow.xib */; };
+		AB82E7251374F29600056B00 /* MKEntryPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB82E7241374F29600056B00 /* MKEntryPanelDemoViewController.m */; };
+		AB82E7281374F29600056B00 /* MKEntryPanelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB82E7261374F29600056B00 /* MKEntryPanelDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB82E70A1374F29500056B00 /* MKEntryPanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKEntryPanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB82E70E1374F29500056B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB82E7101374F29500056B00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB82E7121374F29500056B00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB82E7161374F29500056B00 /* MKEntryPanelDemo-Info.plist */ = {isa = PBXFileReference; path = "MKEntryPanelDemo-Info.plist"; sourceTree = "<group>"; };
+		AB82E7181374F29500056B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB82E71A1374F29500056B00 /* MKEntryPanelDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MKEntryPanelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB82E71B1374F29500056B00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB82E71D1374F29500056B00 /* MKEntryPanelDemoAppDelegate.h */ = {isa = PBXFileReference; path = MKEntryPanelDemoAppDelegate.h; sourceTree = "<group>"; };
+		AB82E71E1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKEntryPanelDemoAppDelegate.m; sourceTree = "<group>"; };
+		AB82E7211374F29500056B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB82E7231374F29500056B00 /* MKEntryPanelDemoViewController.h */ = {isa = PBXFileReference; path = MKEntryPanelDemoViewController.h; sourceTree = "<group>"; };
+		AB82E7241374F29600056B00 /* MKEntryPanelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKEntryPanelDemoViewController.m; sourceTree = "<group>"; };
+		AB82E7271374F29600056B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKEntryPanelDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB82E7071374F29500056B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB82E70F1374F29500056B00 /* UIKit.framework in Frameworks */,
+				AB82E7111374F29500056B00 /* Foundation.framework in Frameworks */,
+				AB82E7131374F29500056B00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB82E6FF1374F29500056B00 = {
+			isa = PBXGroup;
+			children = (
+				AB82E7141374F29500056B00 /* MKEntryPanelDemo */,
+				AB82E70D1374F29500056B00 /* Frameworks */,
+				AB82E70B1374F29500056B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB82E70B1374F29500056B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB82E70A1374F29500056B00 /* MKEntryPanelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB82E70D1374F29500056B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB82E70E1374F29500056B00 /* UIKit.framework */,
+				AB82E7101374F29500056B00 /* Foundation.framework */,
+				AB82E7121374F29500056B00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB82E7141374F29500056B00 /* MKEntryPanelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB82E71D1374F29500056B00 /* MKEntryPanelDemoAppDelegate.h */,
+				AB82E71E1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m */,
+				AB82E7201374F29500056B00 /* MainWindow.xib */,
+				AB82E7231374F29500056B00 /* MKEntryPanelDemoViewController.h */,
+				AB82E7241374F29600056B00 /* MKEntryPanelDemoViewController.m */,
+				AB82E7261374F29600056B00 /* MKEntryPanelDemoViewController.xib */,
+				AB82E7151374F29500056B00 /* Supporting Files */,
+			);
+			path = MKEntryPanelDemo;
+			sourceTree = "<group>";
+		};
+		AB82E7151374F29500056B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB82E7161374F29500056B00 /* MKEntryPanelDemo-Info.plist */,
+				AB82E7171374F29500056B00 /* InfoPlist.strings */,
+				AB82E71A1374F29500056B00 /* MKEntryPanelDemo-Prefix.pch */,
+				AB82E71B1374F29500056B00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB82E7091374F29500056B00 /* MKEntryPanelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB82E72B1374F29600056B00 /* Build configuration list for PBXNativeTarget "MKEntryPanelDemo" */;
+			buildPhases = (
+				AB82E7061374F29500056B00 /* Sources */,
+				AB82E7071374F29500056B00 /* Frameworks */,
+				AB82E7081374F29500056B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKEntryPanelDemo;
+			productName = MKEntryPanelDemo;
+			productReference = AB82E70A1374F29500056B00 /* MKEntryPanelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB82E7011374F29500056B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Steinlogic;
+			};
+			buildConfigurationList = AB82E7041374F29500056B00 /* Build configuration list for PBXProject "MKEntryPanelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB82E6FF1374F29500056B00;
+			productRefGroup = AB82E70B1374F29500056B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB82E7091374F29500056B00 /* MKEntryPanelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB82E7081374F29500056B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB82E7191374F29500056B00 /* InfoPlist.strings in Resources */,
+				AB82E7221374F29500056B00 /* MainWindow.xib in Resources */,
+				AB82E7281374F29600056B00 /* MKEntryPanelDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB82E7061374F29500056B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB82E71C1374F29500056B00 /* main.m in Sources */,
+				AB82E71F1374F29500056B00 /* MKEntryPanelDemoAppDelegate.m in Sources */,
+				AB82E7251374F29600056B00 /* MKEntryPanelDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB82E7171374F29500056B00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB82E7181374F29500056B00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB82E7201374F29500056B00 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB82E7211374F29500056B00 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB82E7261374F29600056B00 /* MKEntryPanelDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB82E7271374F29600056B00 /* en */,
+			);
+			name = MKEntryPanelDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB82E7291374F29600056B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB82E72A1374F29600056B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB82E72C1374F29600056B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKEntryPanelDemo/MKEntryPanelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKEntryPanelDemo/MKEntryPanelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB82E72D1374F29600056B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKEntryPanelDemo/MKEntryPanelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKEntryPanelDemo/MKEntryPanelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB82E7041374F29500056B00 /* Build configuration list for PBXProject "MKEntryPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB82E7291374F29600056B00 /* Debug */,
+				AB82E72A1374F29600056B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB82E72B1374F29600056B00 /* Build configuration list for PBXNativeTarget "MKEntryPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB82E72C1374F29600056B00 /* Debug */,
+				AB82E72D1374F29600056B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB82E7011374F29500056B00 /* Project object */;
+}
