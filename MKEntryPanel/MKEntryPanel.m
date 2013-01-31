@@ -71,9 +71,16 @@
 
 +(MKEntryPanel*) panel
 {
-    MKEntryPanel *panel =  (MKEntryPanel*) [[[UINib nibWithNibName:@"MKEntryPanel" bundle:nil] 
-                                           instantiateWithOwner:self options:nil] objectAtIndex:0];
-
+    MKEntryPanel *panel;
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+    {
+        panel = (MKEntryPanel*) [[[UINib nibWithNibName:@"MKEntryPanel6" bundle:nil]
+                                  instantiateWithOwner:self options:nil] objectAtIndex:0];
+    }else{
+        panel = (MKEntryPanel*) [[[UINib nibWithNibName:@"MKEntryPanel" bundle:nil]
+                          instantiateWithOwner:self options:nil] objectAtIndex:0];
+    }
     
     panel.backgroundGradient.image = [[UIImage imageNamed:@"TopBar"] stretchableImageWithLeftCapWidth:1 topCapHeight:5];
 
