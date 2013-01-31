@@ -2,7 +2,7 @@
 1. Drag the folder: "MKEntryPanel" into your existing project, non-arc can skip step two    
 2. If the project is ARC, go to Build Phases > Compile Sources > double click MKEntryPanel.m and add "-fno-objc-arc", with no quotes to it.  
 3. import "MKEntryPanel.h" in any file you wish to display the view in  
-4. and finally, include this code where you want to use it:  
+4. and finally, include this code where you want to use it:
 ```
 [MKEntryPanel showPanelWithTitle:NSLocalizedString(@"Enter a text name", @"") 
                               inView:self.view 
